@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  background-color: #ECE6FC;
+
+}
+
+#navlogo{
+  height: 100px;
+  background-color: rgb(247, 240, 240);
+
+}
+#one {
+
+  height: 960px;
+}
+
+#navlogo img{
+  width: 200px;
+  height: 48.88px;
+  margin-left: 106px;
+  margin-top: 29px;
+}
+
+#textone{
+width: 623px;
+height: 200px;
+margin-left: 10%;
+margin-top: 156px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 100px;
+color: #140E4A;
+
+}
+
+#cont1{
+  float: left;
+  width: 60%;
+  
+
+}
+
+#ps{
+  width: 100%;
+  margin-top: 10%;
+
+}
+
+#cont2{
+  float:right;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+#top-btn{
+  width: 448px;
+  height: 90px;
+  background: #FFFFFF;
+  border: 3px solid #180F64;
+  box-sizing: border-box;
+  border-radius: 50px;
+  text-decoration: none;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  
+}
+
+#top-btn a{
+  text-decoration: none;
+  color: #180F64;
+}
+
+#p1{
+  width: 60%;
+  margin-top: 7%;
+  font-size: 30px;
+  margin-left: 10%;
+  font-family: Poppins;
+  color: #180F64;
+  
+  
+}
+
+#p2{
+  width: 60%;
+  font-size: 30px;
+  margin-left: 10%;
+  font-family: Poppins;
+  color: #180F64;
+}
+
+#myForm{
+  width: 600px;
+  height: 660px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 30px;
+  margin-left: 9%;
+  margin-top: 4%;
+  padding: 20px;
+  box-shadow: rgb(172, 169, 169) 3px 3px 20px 2px;
+
+  float: left;
+}
+
+#form-sec{
+  
+  margin-top: 14%;
+  
+  height: 800px;
+}
+
+#my-phone{
+   
+} 
+#phone1{
+  width: 22%;
+  height: 730px;
+  background-color: rgb(61, 55, 55);
+  float: right;
+  margin-top: 3%;
+  margin-right: 13%;
+  border-radius: 30px;
+}
+
+#phone2{
+  width: 20%;
+  height: 620px;
+  background-color:#ece5dd;
+  float: right;
+  margin-top: 6%;
+  right: 14%;
+  border-radius: 26px;
+  position: absolute;
+  z-index: 1;
+}
+#phone3{
+  width: 20%;
+  height: 70px;
+  background-color:#ededed;
+  float: right;
+  margin-top: 6%;
+  right: 14%;
+  position: absolute;
+  z-index: 1;
+}
+
+#phone4{
+  width: 20%;
+  height: 70px;
+  background-color:#ededed;
+  float: right;
+  margin-top: 33.2%;
+  right: 14%;
+  position: absolute;
+  z-index: 1;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+
+#phone5{
+  width: 20%;
+  height: 50px;
+  background-color: white;
+  float: right;
+  margin-top: 33.7%;
+  right: 14%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 26px;
+ 
+}
+
+#phone6{
+  width: 20%;
+  height: 50px;
+  background-color:white;
+  float: right;
+  margin-top: 33.7%;
+  right: 14%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 26px;
+ 
+}
+
+#test-output{
+  font-size: 30px;
+  word-wrap: break-word;
+  
+}
+
+
+input{
+  height: 50px;
+  width: 450px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #ECE6FC;
+} 
+
+label{
+  font-size: 22px;
+  font-family: Poppins;
+  color:  #180F64;
+}
+
+#gen-btn{
+  width: 540px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #180F64;
+  color: white;
+}
+
+#copy-btn{
+width: 126px;
+height: 50px;
+margin: auto;
+background-color:#25D366;
+font-size: large;
+color: white;
+border-radius: 5px;
+padding: 0%;
+}
+
+#end_url{
+  width: 400px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+#house{
+  
+  width: 600px;
+  
+}
+
+#myfisrt{
+  padding-top: 30px;
+  
+}
+
+#mySecond{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -12%;
+  left: -25%;
+}
+
+#mySecond img{
+  width: 100px;
+  height: 100px;
+ 
+}
+
+
+/* copy button */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltip{
+      visibility: hidden;
+  }
+  #end_url{
+      visibility: hidden;
+  }
+
+  #footer{
+    position: absolute;
+    z-index: -1;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+  
+  }
+
+  #footer-curve{
+
+  }
+  
+
+  #footer-logo {
+    position: relative;
+    margin-left: 80%;
+    margin-top: 10%;
+    
+  }
+
+
+ 
+
+  
